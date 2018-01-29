@@ -22,5 +22,5 @@ function deepestChild() {
     grandNode = theChild;
     theChild = grandNode.children[0];
   }
-return grandNode.innerHTML;
+return grandNode;
 }
